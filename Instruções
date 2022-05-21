@@ -1,0 +1,24 @@
+Para rodar o RCypress devemos ter algumas coisas instaladas.. por favor siga nessa sequência e o mais importante.. não entre em pânico!! :) 
+
+1- Primeiro sua máquina terá de ter o Node.js instado. Caso ainda nã tenha siga esse o link 'https://nodejs.org/en/download/current/' para download da versão 
+correspondente ao seu sistema operacional. (Quaisquer dúvida pode usar este link: 'https://dicasdejavascript.com.br/instalacao-do-nodejs-e-npm-no-windows-passo-a-passo/')
+
+2- Faça download deste reposiorio e extraia em um local a seu gosto.
+
+3- Abra o Prompt de Comando em seu computador(Basta digitar no menu iniciar 'Prompt', é a primeira opção)
+
+4- Chegue na n local onde a pasta 'CTI-main' foi extraida(..\CTI-main). (Quaisquer dúvidas pode usar este link: 'https://www.iperiusbackup.net/pt-br/trabalhando-com-diretorios-no-prompt-de-comando-no-windows-10/')
+
+5- Dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npm install cypress
+
+6- Após o passo 5, dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npx cypress install --force
+
+7- Após o passo 6, dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npx cypress verify
+
+8- Dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npm i cypress-cucumber-preprocessor
+
+9- Dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npm install -D cypress-xpath
+
+10- Dentro da pasta '\CTI-main' no Prompt de Comando digite o comando: npx cypress open
+
+Agora é só apreciar a automação! :)
