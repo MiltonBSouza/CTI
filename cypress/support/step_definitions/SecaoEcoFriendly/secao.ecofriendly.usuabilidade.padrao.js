@@ -8,9 +8,9 @@ const AuthenticationPage = require('../../Paginas/authentication.page')
 When('Com a pagina aberta',() =>{
     AuthenticationPage.verificaPagina()
 })
-
-Then('A pagina deve ter usuabilidade padrao',() =>{
 //Valida Itens de Usuabilidade que NÃO podem desaparecer da página.
+Then('A pagina deve ter usuabilidade padrao',() =>{
+
 AuthenticationElements.menu()
     .should('be.visible')
 AuthenticationElements.ImagemLinkGoogle()

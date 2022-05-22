@@ -30,10 +30,14 @@ export default class AuthenticationElements {
         return cy.get('#details')
     }
     static AddProdutoCarrinho() {
-        return cy.get('#js-item-addtocartbtn-9207035')
+        return cy.get('.add-to > .clearfix')
     }
     static ValorProduto() {
         return cy.get('.item-pricing-dark > :nth-child(1)')
+    }
+    static EscolheProduto() {
+        return cy.get('#js-item-cimage-9206775')
+
     }
 }
 

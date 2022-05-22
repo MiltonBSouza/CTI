@@ -3,6 +3,7 @@
 
 const AuthenticationPage = require('../../Paginas/authentication.page')
 
+//Esta secão estará validando Críterios que DEVEM existir na página EcoFriendly.
 When('Estou vendo a lista de produtos EcoFriendly',() =>{
     cy.get('.listing')
         .should('be.visible')

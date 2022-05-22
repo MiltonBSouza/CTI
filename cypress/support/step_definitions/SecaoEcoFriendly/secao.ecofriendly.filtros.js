@@ -1,10 +1,7 @@
 /// <reference types="cypress" />
-
-const { equal } = require("minimalistic-assert")
-
-
 /* global Then, When, Given */
 
+//Esta secão estará validando Critérios que DEVEM existir da página EcoFriendly.
 When('Quero usar filtros',() =>{
     cy.xpath('//*[@id="filled-in-$cf.name-1"]/option[1]')
             .invoke('text')
