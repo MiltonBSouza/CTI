@@ -9,6 +9,7 @@ When('Estou vendo a lista de produtos EcoFriendly',() =>{
         .should('be.visible')
 })
 
+//Esta secão estará validando a funcao rolagem infinita
 Then('A secao deve ter funcao rolagem infinita',() =>{
 
 AuthenticationPage.ValidaInfinitScrool()
